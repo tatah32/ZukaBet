@@ -1,7 +1,7 @@
 //=============『 Utama 』================== //
 global.owner = ['6289668014332'] 
 global.mods = [] 
-global.prems = [] 
+global.prems = ['6289668014332'] 
 
 //=============『 Info Owner 』============== //
 global.nameowner = 'Tata'
@@ -25,7 +25,7 @@ global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
 global.wm = 'Tata'
 global.watermark = wm
-global.wm2 = '                     「 Zer0-2⁩ 」'
+global.wm2 = '「 Zer0-2⁩ 」'
 global.wm3 = '⫹⫺ Zer0-2'
 global.htki = '––––––『' 
 global.htka = '』––––––'

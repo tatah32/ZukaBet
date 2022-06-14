@@ -26,7 +26,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
       let out = await uploadFile(img)
 
-      stiker = await sticker5(0, out, { packname: pushname, author: "" })
+      stiker = await sticker5(0, out, packname: pushname, author: "")
 
     } else if (/image/.test(mime)) {
 
@@ -34,7 +34,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
       let out = await uploadImage(img)
 
-      stiker = await sticker5(0, out, { packname: pushname, author: "" })
+      stiker = await sticker5(0, out, packname: pushname, author: "")
 
     } else if (/video/.test(mime)) {
 
@@ -44,7 +44,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
       let out = await uploadImage(img)
 
-      stiker = await sticker5(0, out, { packname: pushname, author: "" })
+      stiker = await sticker5(0, out, packname: pushname, author: "")
 
     }
 
